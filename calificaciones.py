@@ -25,5 +25,4 @@ def main():
                 # Escribe en el archivo de salida en el formato deseado
                 salida.write(f"{palabras[1].upper()}, {palabras[0]}: {promedio:.2f}\n")
 
-if __name__ == "__main__":
-    main()
+
