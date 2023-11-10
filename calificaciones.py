@@ -23,7 +23,7 @@ def main():
                 # Calcula el promedio de las calificaciones
                 promedio = calcular_promedio(calificaciones)
                 # Escribe en el archivo de salida en el formato deseado
-                salida.write(f"{palabras[1]}, {palabras[0]}: {promedio:.2f}\n")
+                salida.write(f"{palabras[1].upper()}, {palabras[0]}: {promedio:.2f}\n")
 
 if __name__ == "__main__":
     main()
